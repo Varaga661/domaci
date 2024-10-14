@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preuzimanje zadataka</title>
+    <title>Programiranje</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Programiranje</h1>
-        <a href="file1.zip" class="download-btn" download>1. zadatak</a><br>
-        <a href="file2.zip" class="download-btn" download>2. zadatak</a><br>
-        <a href="file3.zip" class="download-btn" download>3. zadatak</a>
-        <footer>
-             Preuzimanje
-        </footer>
-    </div>
 
-    <!-- Drugi container -->
-    <div class="container">
-        <h1>Web Programiranje</h1>
-        <a href="file1.zip" class="download-btn" download>1. zadatak</a><br>
-        <a href="file2.zip" class="download-btn" download>2. zadatak</a><br>
-        <a href="file3.zip" class="download-btn" download>3. zadatak</a>
-        <footer>
-             Preuzimanje
-        </footer>
-    </div>
+    <h1>Preuzimanje</h1>
+    
+    <table>
+        <tr>
+            <th>Ime fajla</th>
+            <th>Preuzimanje</th>
+        </tr>
+        <tr>
+            <td>Lavirint</td>
+            <td>
+                <a href="files/file1.zip" download>
+                    <button>Preuzmi</button>
+                </a>
+                <div class="file-info">
+                    <img src="2.img">
+                    
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Flappy Bird</td>
+            <td>
+                <a href="files/file2.zip" download>
+                    <button>Preuzmi</button>
+                </a>
+                <div class="file-info">
+                    <img src="flappy.img">
+                </div>
+            </td>
+        </tr>
+        <!-- Dodajte više fajlova po potrebi -->
+    </table>
+
 </body>
 </html>
