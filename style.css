@@ -89,4 +89,11 @@ nav ul li a:hover {
     background-color: #45a049;
     border-radius: 4px;
 }
+img {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
